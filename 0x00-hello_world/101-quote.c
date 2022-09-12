@@ -1,9 +1,10 @@
 #include <unistd.h>
 
 /**
- * main - Prints "and that pieceof art is useful..." - Dora Korpar, 2015-10-19
- * Description: UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
- * Return: 1 Always.
+ * main - Prints "and that pieceof art is useful" - Dora Korpar, 2015-10-19",
+ * 		  followed by a new line, to standard error."
+ *
+ * Return: Always 1.
  */
 
 int main(void)
