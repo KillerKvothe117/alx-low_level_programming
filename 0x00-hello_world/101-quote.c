@@ -1,8 +1,7 @@
 #include <unistd.h>
 
 /**
- * main - Prints "and that pieceof art is useful" - Dora Korpar, 2015-10-19",
- * 		  followed by a new line, to standard error."
+ * main - Prints "and that pieceof art is useful" - Dora Korpar, 2015-10-19,
  *
  * Return: Always 1.
  */
