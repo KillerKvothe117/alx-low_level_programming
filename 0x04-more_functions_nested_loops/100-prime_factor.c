@@ -1,25 +1,22 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * main - Entry point
  *
  * Return: 0
  */
-
 int main(void)
 {
-	int c;
-	long num = 61852475143;
+	long int num = 612852475143;
+	long int i;
 
-	for (c = (int) sqrt(num); c > 2; c++)
+	for (i = 2; i < num; i++)
 	{
-		if (num % c == 0)
+		if ((num % i) == 0)
 		{
-			printf("%d\n", c);
-			break;
+			num = num / i;
 		}
 	}
-
+	printf("%ld\n", i);
 	return (0);
 }
