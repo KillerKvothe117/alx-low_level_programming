@@ -4,7 +4,7 @@
  * print_most_numbers - prints numbers from 0 - 9 (2,4 exlusive)
  * followed by a new line
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 
 void print_most_numbers(void)
