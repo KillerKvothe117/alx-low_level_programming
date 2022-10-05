@@ -3,11 +3,11 @@
 #include <string.h>
 
 /**
- * * main - a program that adds positive numbers
- * * @argc: the number of command-line arguments
- * * @argv: an array of strings containing the command-line arguments
- * * Return: returns 0 (success)
- * */
+ * main - a program that adds positive numbers
+ * @argc: the number of command-line arguments
+ * @argv: an array of strings containing the command-line arguments
+ * Return: returns 0 (success)
+ */
 int main(int argc, char *argv[])
 {
 	int i;
